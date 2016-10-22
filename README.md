@@ -1,8 +1,22 @@
-#hxpico8 tool
+#hxpico8 tools
 
 This tool let you initialize and build pico8 projects in haxe using [hxpico8](https://github.com/YellowAfterlife/hxpico8).
 
-##What is exactly doing this tool?
+##How to install
+
+```
+haxelib git hxpico8-tools https://github.com/po8rewq/hxpico8-tools.git
+```
+
+##How to use this tool
+
+```
+mkdir /path/to/your/project
+cd /path/to/your/project
+haxelib run hxpico8-tools
+```
+
+##What can you do with this lib?
 
 ###Initialize your project
 
@@ -29,17 +43,3 @@ RUN MY-PROJECT.P8
 ```
 
 And enjoy
-
-##How to install
-
-```
-haxelib git hxpico8-tools https://github.com/po8rewq/hxpico8-tools.git
-```
-
-##How to use this tool
-
-```
-mkdir /path/to/your/project
-cd /path/to/your/project
-haxelib run hxpico8-tools
-```
