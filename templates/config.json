@@ -1,0 +1,9 @@
+{
+  "project": "::projectName::",
+  "build": {
+    "outputDir": "::out::",
+    "sourceDir": "::src::",
+    "main": "::main::",
+    "export": "::export::"
+  }
+}
