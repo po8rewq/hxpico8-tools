@@ -1,6 +1,6 @@
 -cp src
 -main Tools
--neko bin/build.n
+-neko run.n
 
 -resource templates/config.json@config
 -resource templates/export.p8@p8

@@ -1,0 +1,11 @@
+{
+	"name": "hxpico8-tools",
+	"url": "https://github.com/po8rewq/hxpico8-tools",
+	"license": "MIT",
+	"tags": ["lua", "pico8", "voxatron"],
+	"description": "Tools to use hxpico8 library by YellowAfterlife.",
+	"version": "1.0.0",
+	"releasenote": "Initial release",
+	"contributors": ["RevoluGame"],
+	"dependencies": {}
+}
