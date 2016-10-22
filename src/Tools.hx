@@ -13,6 +13,10 @@ class Tools
 
   static inline function main()
   {
+    var haxelibDir = Sys.getCwd();
+    var userDir = Sys.args().pop();
+    Sys.setCwd( userDir );
+
     var args = Sys.args();
     var cmd = args.length == 0 ? "help" : args[0];
     var params : Dynamic = args.length == 0 ? {} : getParams();
