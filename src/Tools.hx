@@ -89,7 +89,7 @@ class Tools
     var tmp = askForParam("The haxe source directory", Path.join([cwd, "src"]), validatePath);
     Reflect.setField(configData, "src", tmp);
 
-    Reflect.setField(configData, "main", "Main.hx");
+    Reflect.setField(configData, "main", "Main");
 
     var tmp = askForParam("The pico8 output directory", null, validatePath);
     Reflect.setField(configData, "export", tmp);
@@ -122,7 +122,7 @@ class Tools
     File.saveContent(Path.join([
       Reflect.field(configData, "src"),
       Reflect.field(configData, "main")
-    ]), mainFile);
+    ]), mainFile + ".hx" );
   }
 
   static function askForParam( txt: String, ?defaultValue: String, ?validate: String->Bool ) : String
